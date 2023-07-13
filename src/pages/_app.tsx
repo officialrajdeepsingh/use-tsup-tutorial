@@ -9,9 +9,9 @@ export default function App({ Component, pageProps }: AppProps) {
    <Header
         logo="Tsup Tutorial"
         navItem={[
-          { name: "Home", url: "/" },
-          { name: "About", url: "/about" },
-          { name: "Contact", url: "/contact" }
+          { name: "Home", url: "/use-tsup-tutorial/" },
+          { name: "About", url: "/use-tsup-tutorial/about" },
+          { name: "Contact", url: "/use-tsup-tutorial/contact" }
         ]}
       />
   <div className="mx-auto w-3/6 p-5 my-3">
