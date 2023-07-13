@@ -23,8 +23,12 @@ export default function Home() {
       
       <br />
     
-      <H2>Button </H2>  
-
+      <H2>Button </H2> 
+      <br /> 
+      <Button> Submit    </Button>
+      <br />       <br /> 
+      <H2>Button with icons</H2> 
+      <br />      
       <Button> <IconMastodon /> Mastodon   </Button>
 
       <Button> <IconInstagram /> Instagram  </Button>
