@@ -1,7 +1,7 @@
 import React from 'react';
 import { H1,H3 } from "tsup-tutorial/Headings";
 
-function contact(props) {
+function contact() {
     return (
         <>
             <H1>Contact us</H1>
