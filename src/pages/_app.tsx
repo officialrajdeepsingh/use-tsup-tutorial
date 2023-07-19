@@ -1,8 +1,14 @@
 import '@/styles/globals.css'
 import "node_modules/tsup-tutorial/dist/tailwind.css";
+
+/* 
+This not workin you that you need postcss and [postcss-import](ttps://github.com/postcss/postcss-import) plugin.
+import "tsup-tutorial/dist/tailwind.css";
+*/
+
+
 import type { AppProps } from 'next/app'
-import { Header } from 'tsup-tutorial';
-import { Footer } from 'tsup-tutorial';
+import { Header,Footer } from 'tsup-tutorial';
 
 export default function App({ Component, pageProps }: AppProps) {
   return <>
